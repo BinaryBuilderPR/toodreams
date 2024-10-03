@@ -1,0 +1,24 @@
+.HomePage{
+
+}
+
+
+.Hero_section{
+
+    padding: 10rem;
+    /* background:olivedrab; */
+    display: flex;
+}
+
+
+.Hero_text{
+    font-size: 5rem;
+    width: 50%;
+    font-weight:100;
+}
+
+
+.first_image{
+    width: 40rem;
+
+}
