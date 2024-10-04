@@ -5,9 +5,10 @@
 
 .Hero_section{
 
-    padding: 10rem;
+    margin:10rem;
+    width: 90vw;
     /* background:olivedrab; */
-    display: flex;
+    position: absolute;
 }
 
 
@@ -15,10 +16,47 @@
     font-size: 5rem;
     width: 50%;
     font-weight:100;
+    position: absolute;
+    z-index: 100;
+
+}
+  
+.Hero_text_div{
+    position: absolute;
+}
+
+ 
+.Hero_text::after{
+    display: inline-block;
+    position: absolute;
+    content: "";
+    background-color: var(--accent-color);
+    height: .5rem;
+    width: 32rem;
+    bottom: -1rem;
+    left: 0rem;
+}
+
+.Hero_main{
+    position: relative;
+}
+
+.image{
+    /* background-color: wheat; */
+    /* position: absolute; */
+    background-color: red;
+    position: absolute;
+}
+.image img{
+    position: absolute;
+    width: fit-content;
+    height: 90vh;
+    width: 98vw;
+
+
 }
 
 
-.first_image{
-    width: 40rem;
-
+.last_image{
+    /* margin-top: 1rem; */
 }
