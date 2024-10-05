@@ -1,0 +1,40 @@
+.footer{
+    height: 30vh;
+    /* width: 100%; */
+    background-color: var(--primary-color);
+    z-index: 1001;
+    padding: 5rem 12rem;
+    color: var(--white-color);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+.about{
+
+        font-size: 2rem;
+
+}
+
+.footer_main_text{
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+.copy_right{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    background-color: var(--accent-color);
+    color:var(--white-color);
+    margin: 0;
+    height: 2.5rem;
+}
+
+
+
+.copy_right p{
+    margin: 0;
+}

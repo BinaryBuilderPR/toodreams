@@ -10,7 +10,7 @@ const HomePage = () => {
 
     <div className={classes.image}>
           <img src="images/hero images.jpg"></img>
-        </div>
+      </div>
 
     </div>
   )

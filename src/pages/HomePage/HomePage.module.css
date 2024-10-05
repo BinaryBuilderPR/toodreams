@@ -38,18 +38,18 @@
 }
 
 .Hero_main{
-    position: relative;
+    /* position: relative; */
 }
 
 .image{
     /* background-color: wheat; */
     /* position: absolute; */
-    background-color: red;
-    position: absolute;
+    /* background-color: red; */
+    /* position: relative; */
 }
 .image img{
-    position: absolute;
-    width: fit-content;
+    /* position: absolute; */
+    /* width: fit-content; */
     height: 90vh;
     width: 98vw;
 
