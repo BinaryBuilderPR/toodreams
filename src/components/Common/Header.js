@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from './Header.module.css'; // Import the CSS module
-import { Class, Search } from '@mui/icons-material';
+import { Search } from '@mui/icons-material';
 import AccountCircleOutlinedIcon from '@mui/icons-material/AccountCircleOutlined';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 // import "../../Global.css"
