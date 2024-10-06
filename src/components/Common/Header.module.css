@@ -29,13 +29,9 @@
 
 }
 
-.search{
-    /* color: */
-}
 
-.navbar  {
-  /* margin: 0; */
-}
+
+
 .navbar ul {
   list-style: none;
   display: flex;
@@ -99,18 +95,4 @@
     padding: 0 1rem;
     overflow: hidden;
     background-color: transparent;
-}
-
-
-.location_div{
-
-  
-}
-
-
-.location_input{}
-
-
-.location_search{
-
 }

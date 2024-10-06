@@ -1,6 +1,4 @@
-.HomePage{
 
-}
 
 
 .Hero_section{
@@ -10,20 +8,8 @@
     /* background:olivedrab; */
     position: absolute;
 }
+ 
 
-
-.Hero_text{
-    font-size: 5rem;
-    width: 50%;
-    font-weight:100;
-    position: absolute;
-    z-index: 100;
-
-}
-  
-.Hero_text_div{
-    position: absolute;
-}
 
  
 .Hero_text::after{
@@ -39,24 +25,30 @@
 
 .Hero_main{
     /* position: relative; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal-width columns */
+    grid-template-rows: repeat(2, 1fr); /* 2 equal-height rows */
+    width: 100%; /* Full width */
 }
+.Hero_main img{
+    width:100%;
 
-.image{
-    /* background-color: wheat; */
-    /* position: absolute; */
-    /* background-color: red; */
-    /* position: relative; */
 }
-.image img{
+.Hero_text{
+    font-size: 5rem; 
+    width: 50%;
+    font-weight:100;
+    /* position: absolute; */
+    z-index: 100;
+    grid-column: 1/2;
+
+}
+.first_image{
     /* position: absolute; */
     /* width: fit-content; */
-    height: 90vh;
-    width: 98vw;
-
+    /* height: 90vh; */
+    grid-column: 2/-1;
 
 }
 
 
-.last_image{
-    /* margin-top: 1rem; */
-}
