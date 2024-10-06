@@ -3,6 +3,7 @@ import classes from './Header.module.css'; // Import the CSS module
 import { Search } from '@mui/icons-material';
 import AccountCircleOutlinedIcon from '@mui/icons-material/AccountCircleOutlined';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
+import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
 // import "../../Global.css"
 const Header = () => {
   return (
@@ -13,14 +14,23 @@ const Header = () => {
 
       </div>
 
-        <div className={classes.input_div}>
-          <Search fontSize="large" className={classes.input_logo}/>
-        <input  type="text" placeholder="Search for products..." className={classes.input}></input>
+        <div className={classes.search_div}>
+          <Search fontSize="large" className={classes.search_logo}/>
+        <input  type="text" placeholder="Search for products..." className={classes.search_input}></input>
+
+      </div>
+     
+    
+       
+      <nav className={classes.navbar}>
+      
+        <ul >
+        <div className={classes.location_div}>
+          <LocationOnOutlinedIcon fontSize="large" className={classes.location_logo}/>
+        <input  type="text" placeholder="Jamshedpur,Jharkhand" className={classes.location_input}></input>
 
         </div>
-      <nav className={classes.navbar}>
-        <ul >
-          <li>Become Seller</li>
+          <li className={classes.Active}>Become Seller</li>
           <li>Row Materials</li>
           <li>Specialist & Works </li>
           <li>Plumbing & Electrical </li>
